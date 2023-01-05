@@ -1,4 +1,80 @@
+:root{
+    --primary-color: #8098ffad;
+}
+
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+            color: white;
+}
+h1{
+    text-decoration: underline ;
+}
+.nama{
+    border: 4px #8098ff solid;
+    border-bottom: 4px #2b43ff solid;
+    border-top: 4px #2b43ffe8 solid;
+    border-left: 4px #55c1ffe8 solid;
+    border-right: 4px #55c1ffe8 solid;
+    margin-right: px ;
+}
+.reset{
+    border: 4px #ff000a solid;
+    border-bottom: 4px #ff000a solid;
+    border-top: 4px #ff000a solid;
+    border-left: 4px #ff6915 solid;
+    border-right: 4px #ff6915 solid;
+    margin-right: 10px;
+}
 .password{
     border: 4px #8098ff solid;
-    po
+    border-bottom: 4px #2b43ff solid;
+    border-top: 4px #2b43ffe8 solid;
+    border-left: 4px #55c1ffe8 solid;
+    border-right: 4px #55c1ffe8 solid;
+    margin-right: px ;
 }
+.submit{
+    border: 4px #8098ff solid;
+    border-bottom: 4px #2b43ff solid;
+    border-top: 4px #2b43ffe8 solid;
+    border-left: 4px #55c1ffe8 solid;
+    border-right: 4px #55c1ffe8 solid;
+    margin-right: 37px ;
+}
+footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem  ;
+    font-size:1.4rem ;
+    font-align: center;
+    margin-top: auto;
+    bottom: 0px;
+    position: absolute;
+    
+}
+header{
+    background-color: var(--primary-color);
+    color: white;
+    font-align: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight:50;
+    
+}
+.container {
+   width: 90x;
+   max-width: 1024px;
+   margin-inline:auto;
+   min-height: 100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
