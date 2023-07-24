@@ -94,3 +94,12 @@ details {
 .italic{
     color: cyan;
 }
+.A1{
+
+border: 4px #8098ff solid;
+    border-bottom: 4px #2b43ff solid;
+    border-top: 4px #2b43ffe8 solid;
+    border-left: 4px #55c1ffe8 solid;
+    border-right: 4px #55c1ffe8 solid;
+    margin-right: px ;
+}
