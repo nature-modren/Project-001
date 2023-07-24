@@ -15,7 +15,7 @@ else {
 }
 
 function togglePasswordVisibility() {
-  var passwordInput = document.getElementById('passwordInput');
+  var passwordInput = document.getElementById('pass');
   
   if (passwordInput.type === 'password') {
     passwordInput.type = 'text';
