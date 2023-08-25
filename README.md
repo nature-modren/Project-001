@@ -1,11 +1,6 @@
 # phoenix project
 
-Sebuah project dari tahap pengembangan
-berbasis web (open-source) 
+A project from the web-based development stage (open-source) Managed by a beginner trying to Become a high-level developer 
 
-Dikelola oleh seorang pemula yang berusaha
-Menjadi pengembang tingkat tinggi
-
-nature_modren :)
 
 keycode: 651737083410365
