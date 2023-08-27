@@ -24,4 +24,4 @@ function togglePasswordVisibility() {
   }
 }
 
-
+localStorage.setItem("nama","hrma");
