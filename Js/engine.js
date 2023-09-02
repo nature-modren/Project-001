@@ -22,7 +22,8 @@ function togglePasswordVisibility() {
   } else {
     passwordInput.type = 'password';
   }
-}
+};
 
-localStorage.setItem("nama","hrma");
+
 localStorage.setItem("hehe","gabut");
+localStorage.clear();
