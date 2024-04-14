@@ -1,62 +1,40 @@
 <!DOCTYPE html>
 <html lang="in">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Alpha project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Project</title>
     <link rel="stylesheet" href="css/hydra.css">
     <link rel="shortcut icon" href="img/Favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
-
-
 <body>
-   
- <center>
-
- <form id="form" name="form" onsubmit="return false"  method="POST" data-netlify-recaptcha="true" data-netlify="true">
-  <center>
-      <h1>𝒔𝒆𝒍𝒂𝒎𝒂𝒕 𝒅𝒂𝒕𝒂𝒏𝒈</h1>
-  </center>
-    <label for="hehe">nama:<br></label>
-    <input type="text" name="hehe" placeholder="nama pengunjung" class="nama" id="user" value="" >
-   
- <br><br>
-
- <label for="nat">Password:<br></label>
- <input type="password" name="nat" id="pass" class="password" placeholder="kunci verifikasi" value="">
-
-<br><br>
-
-<button onclick="togglePasswordVisibility()" class="A1">button Password Visibility</button>
-
-<br><br>
-
-<button type="submit" class="submit" value="Kirim" onclick="tampilan()">masuk</button>
-
-    <button type="reset" class="reset" onclick="reset()">Hapus</button>
-<br><br> 
-   </form>
-   
-  <center id="container"></center>
-  
-<br>
-
-   <summary><i class="italic"><b>PETUNJUK</b></i></summary>
-   <details> <b class="bold"><br>nama:Mika<br> pass:Mikachii <br><br>halaman ini masih tahap pengembangan ,jika ada saran silahkan kunjungi IG:@nature-modren</b> </details>
-   
-</center>
-<center>
-<footer>
     <div class="container">
-        <span>
-            copyright &copy; 2023</span>
-            <span>amri firdaus</span>
+        <form id="form" name="form" onsubmit="return false;" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+            <h1>𝒔𝒆𝒍𝒂𝒎𝒂𝒕 𝒅𝒂𝒕𝒂𝒏𝒈</h1>
+            <label for="hehe">Nama:<br></label>
+            <input type="text" name="hehe" placeholder="Nama Pengunjung" class="nama" id="user">
+            <br><br>
+            <label for="nat">Password:<br></label>
+            <input type="password" name="nat" id="pass" class="password" placeholder="Kunci Verifikasi">
+            <br><br>
+            <button onclick="togglePasswordVisibility()" class="A1">Toggle Password Visibility</button>
+            <br><br>
+            <button type="submit" class="submit" onclick="tampilan()">Masuk</button>
+            <button type="reset" class="reset" onclick="reset()">Hapus</button>
+        </form>
+        <div id="container"></div>
+        <details>
+            <summary><i class="italic"><b>PETUNJUK</b></i></summary>
+            <b class="bold"><br>Nama: Mika<br>Password: Mikachii <br><br>Halaman ini masih tahap pengembangan, jika ada saran silahkan kunjungi IG: @nature-modren</b>
+        </details>
     </div>
-</footer>
-</center>
+    <footer>
+        <div class="container">
+            <span>Copyright &copy; <script>document.write(new Date().getFullYear())</script></span>
+            <span>Amri Firdaus</span>
+        </div>
+    </footer>
+    <script src="js/engine.js"></script>
 </body>
-<script src="js/engine.js"></script>
 </html>
