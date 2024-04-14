@@ -4,7 +4,7 @@ var pass = document.getElementById("form").pass.value;
 var p_container=document.getElementById("container")
 
 if(user== "Mika" && pass== "mikachii") {
-    location.href="uji tester web 3.html"
+    location.href="Halaman_2.html"
 }
 else if (user=="putra" && pass== "mikachii") {
     alert("welcome putra")
@@ -23,7 +23,3 @@ function togglePasswordVisibility() {
     passwordInput.type = 'password';
   }
 };
-
-
-localStorage.setItem("hehe","gabut");
-localStorage.clear();
